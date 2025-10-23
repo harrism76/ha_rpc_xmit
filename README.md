@@ -1,2 +1,3 @@
 # ha_rpc_xmit
-CPP library implementing Remote Procedure Call and TCP network server
+CPP library implementing Remote Procedure Call and TCP network server. The RCP(Remote Procedure Call) will implement data transfer between heterogeneous systems. Such use cases can be HA (high availability) where data and memory state between two systems can be maintained, when one device fails the take over device has the same data/state in its memory and can immediately take control. The other case is for Game Engines network multiplayer replication. Where the clients have state presence on the server, and the server can keep track of client player game information, replicating data back and forth. The server will maintain a client object as if the client is on the server.
+The generic TCP server is for socket base transfer of data over a network.
